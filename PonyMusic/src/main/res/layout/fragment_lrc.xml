@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <com.example.menglucywhh.ponymusicdemo.lrcview.LrcView
+        android:id="@+id/lrc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lrcAnimationDuration="1000"
+        app:lrcCurrentTextColor="#E2E4E6"
+        app:lrcDividerHeight="24dp"
+        app:lrcLabel="找不到歌词(@_@)"
+        app:lrcNormalTextColor="#80898F"
+        app:lrcPadding="40dp"
+        app:lrcTextSize="18sp"
+        app:lrcTimeTextColor="#80898F"
+        app:lrcTimelineColor="#80898F"
+        app:lrcTimelineTextColor="#80898F" />
+</LinearLayout>

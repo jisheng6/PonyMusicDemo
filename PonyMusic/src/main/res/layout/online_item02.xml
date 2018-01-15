@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        fresco:placeholderImage="@drawable/hotmusic"
+        android:id="@+id/item02_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="#A4A4A4"
+            android:id="@+id/item02_text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="主打榜单"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/item02_text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="主打榜单"
+            android:textColor="#A4A4A4"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/item02_text03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="主打榜单"
+            android:textColor="#A4A4A4"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

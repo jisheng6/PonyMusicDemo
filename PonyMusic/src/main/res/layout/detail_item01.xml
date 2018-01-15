@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:id="@+id/detail01_linear"
+    android:background="@drawable/oumei"
+    android:padding="12dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_margin="10dp"
+        android:layout_marginLeft="8dp"
+        fresco:placeholderImage="@drawable/hotmusic"
+        android:id="@+id/detail01_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:id="@+id/detail01_text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="欧美金曲榜"
+            android:textSize="24sp" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:id="@+id/detail01_text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="最近更新"
+            android:textSize="17sp" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:id="@+id/detail01_text03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="实时展现"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

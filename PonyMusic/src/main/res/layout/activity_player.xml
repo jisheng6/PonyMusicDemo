@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_player2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424F5A"
+    >
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/linear1"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_arrow_down"
+            android:id="@+id/image_guan"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="狐狸"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:id="@+id/text_songname"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="薛之谦"
+                android:textColor="#7F8588"
+                android:textSize="17sp"
+                android:id="@+id/text_songautor"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linear2"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_btn_prev"
+            android:id="@+id/image_shang"
+
+            />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/radio_playm"
+            android:src="@drawable/ic_play_btn_pause"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_btn_next"
+            android:id="@+id/image_xia"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/linear2"
+        android:id="@+id/linear3"
+        >
+        <TextView
+            android:id="@+id/text_start"
+            android:textSize="17sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            />
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="30dp"
+            android:id="@+id/seekbar"
+
+            />
+        <TextView
+            android:id="@+id/text_stop"
+            android:textSize="17sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            />
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear1"
+        android:layout_above="@id/linear3"
+        android:id="@+id/viewpager"
+        ></android.support.v4.view.ViewPager>
+
+</RelativeLayout>

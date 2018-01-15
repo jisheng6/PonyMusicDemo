@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PonyMusic/PonyMusic.iml" filepath="$PROJECT_DIR$/PonyMusic/PonyMusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PonyMusicDemo.iml" filepath="$PROJECT_DIR$/PonyMusicDemo.iml" />
+      <module fileurl="file://E:\Studio3_WorkSpace\PonyMusicDemo\PonyMusic\app.iml" filepath="E:\Studio3_WorkSpace\PonyMusicDemo\PonyMusic\app.iml" />
+    </modules>
+  </component>
+</project>

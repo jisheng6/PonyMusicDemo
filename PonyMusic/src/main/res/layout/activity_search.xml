@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.menglucywhh.ponymusicdemo.view.activity.SearchActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/titleRelative"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F44336"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="#fff"
+            android:text="←"
+            android:id="@+id/search_fanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/a_b" />
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:textCursorDrawable="@drawable/my_cursor"
+            android:background="@null"
+            android:textColorHint="#F8867E"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:hint="歌曲名、歌手名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/search_cha"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/a_6" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+</LinearLayout>

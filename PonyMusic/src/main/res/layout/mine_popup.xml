@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingLeft="30dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:text="怒放"
+        android:id="@+id/pop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="分享"
+        android:id="@+id/pop_fenxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding="15dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="设为铃声"
+            android:id="@+id/pop_sheling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="15dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="歌曲信息"
+            android:id="@+id/pop_xinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="删除"
+        android:id="@+id/pop_shanchu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
+
